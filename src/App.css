@@ -1,0 +1,122 @@
+/**
+ * Navbar
+ */
+#navbar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+#navbar .navbar-brand,
+#navbar .nav-link {
+  color: #fafafa;
+}
+
+#navbar .navbar-brand:hover,
+#navbar .nav-link:hover {
+  color: #cecece;
+}
+
+#navbar .navbar-toggler {
+  background-color: #fafafa;
+}
+
+/** 
+ * Headline
+ */
+.headline {
+  background: no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  background-color: #2f2f2f;
+  height: 100%;
+  opacity: 0.1;
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  padding: 25px 0px;
+  width: 80%;
+}
+
+.container .heading {
+  padding: 20px;
+}
+
+.headline .container .heading {
+  /**
+   * Option 1: Black opaque
+   * background-color: rgba(0, 0, 0, 0.8);
+   */
+  /**
+   * Option 2: Red opaque
+   * background-color: rgba(131, 46, 49, 0.8);
+   */
+  background-color: rgba(131, 46, 49, 0.8);
+  color: #fff;
+}
+
+/**
+ * Image Overlay
+ */
+.image-overlay {
+  position: relative;
+  margin: 25px 0px;
+}
+
+.image-overlay .overlay-hover {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.image-overlay .overlay-hover:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.image-overlay .body {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.image-overlay .body p {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 10px;
+}
+
+.image-overlay img {
+  max-height: 240px;
+  width: 100%;
+}
+
+/**
+ * Person Card
+ */
+.person-card {
+  text-align: center;
+}
+
+img.person-card-image {
+  height: 125px;
+}
+
+.person-card-name {
+  padding: 0px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.person-card-title {
+  padding: 0px 10px;
+  font-size: 12px;
+}
