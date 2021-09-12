@@ -40,12 +40,12 @@
 }
 
 .container {
-  padding: 25px 0px;
-  width: 80%;
+  padding: 25px 0px !important;
+  width: 95% !important;
 }
 
 .container .heading {
-  padding: 20px;
+  padding: 20px !important;
 }
 
 .headline .container .heading {
@@ -59,6 +59,10 @@
    */
   background-color: rgba(131, 46, 49, 0.8);
   color: #fff;
+}
+
+.shifted {
+  padding-top: 350px;
 }
 
 /**
