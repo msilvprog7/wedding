@@ -92,6 +92,14 @@ function App() {
         <Heading.Title>RSVP</Heading.Title>
         <Heading.Subtitle>
           Please RSVP by <b>Monday November 15th, 2021</b>.
+          <br />
+          <br />
+          We will be following local guidance for COVID restrictions. Please
+          either be vaccinated or have negative COVID test within 48 hours
+          before the wedding.
+          <br />
+          <br />
+          Thank you!
         </Heading.Subtitle>
         <Heading.Body>
           <Row>
