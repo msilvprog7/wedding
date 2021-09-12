@@ -51,10 +51,10 @@ function App() {
         </Container>
       </Navbar>
       <Headline image={headlineImage1}>
-        <Heading id="wedding" paddingTop="350px">
+        <Heading id="wedding" className="shifted">
           <Heading.Title>Wedding</Heading.Title>
           <Heading.Subtitle>
-            We're delighted to gather on <b>Saturday December 11th, 2021</b>
+            We're delighted to gather on <b>Saturday December 11th, 2021 </b>
             with family and friends to celebrate our marriage.
           </Heading.Subtitle>
           <Heading.Body>
@@ -265,7 +265,7 @@ function App() {
         </Heading.Body>
       </Heading>
       <Headline image={headlineImage3}>
-        <Heading id="thanks" paddingTop="350px">
+        <Heading id="thanks" className="shifted">
           <Heading.Title>Thanks</Heading.Title>
           <Heading.Subtitle>
             Thanks for the love and support over the years, we appreciate it and

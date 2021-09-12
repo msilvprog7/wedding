@@ -17,15 +17,13 @@ interface HeadingProps {
   id: string;
 
   /**
-   * Optional padding at the top,
-   * useful when the heading should
-   * be padded from the top, such
-   * as in a headline to make the
-   * image show more.
+   * Optional className to change
+   * style of heading.
    *
-   * Example: 350px
+   * Example: shifted to use shifted
+   * className
    */
-  paddingTop?: string;
+  className?: string;
 }
 
 /**
@@ -41,7 +39,7 @@ interface HeadingProps {
 class Heading extends React.Component<HeadingProps> {
   render() {
     return (
-      <div style={{ paddingTop: this.props.paddingTop || "0px" }}>
+      <div className={this.props.className}>
         <Container>
           <Row>
             <Col>
@@ -97,7 +95,7 @@ class HeadingSubtitle extends React.Component {
  */
 class HeadingBody extends React.Component {
   render() {
-    return <p>{this.props.children}</p>;
+    return <div>{this.props.children}</div>;
   }
 }
 
