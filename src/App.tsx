@@ -113,8 +113,15 @@ function App() {
             <Col md={4}>
               <ImageOverlay
                 src={Files.from("images", "rsvp", "registry.png")}
-                alt="Registry"
+                alt="Target Registry"
                 href="https://www.target.com/gift-registry/gift-giver?registryId=517da360-09bd-11ec-a949-e193129bcc48&type=WEDDING"
+              />
+            </Col>
+            <Col md={4}>
+              <ImageOverlay
+                src={Files.from("images", "rsvp", "registry-2.jpg")}
+                alt="Amazon Registry"
+                href="https://www.amazon.com/wedding/emily-kessler-michael-snider--december-2021/registry/ZN11NQFVVKA8"
               />
             </Col>
           </Row>
