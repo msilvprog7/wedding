@@ -44,7 +44,8 @@ yarn deploy
 - Venue photos from [Columbia Winery](https://www.columbiawinery.com/) and [A Platinum Events catering](https://aplatinumevent.com/)
 - Rsvp images
   - Rsvp from [Vaibhav Sharma](https://www.pinterest.com/pin/780037597944539212/)
-  - Registry from [Venue Monk](https://www.venuemonk.com/blog/corporate-diwali-gift-ideas)
+  - Target Registry from [Venue Monk](https://www.venuemonk.com/blog/corporate-diwali-gift-ideas)
+  - Amazon Registry [Vogue India](https://www.vogue.in/content/how-to-pick-the-perfect-wedding-gift-for-a-couple)
 - Plan images
   - Cactus, Kirkland from [Bojan Vukadinovic](https://www.google.com/maps/contrib/105264082755649966158/photos/@44.2131852,-98.0978169,4z/data=!4m3!8m2!3m1!1e1)
   - Hampton Inn, Woodinville from [Gary Paulson](https://www.google.com/maps/contrib/105620531063767546157/photos/@44.9636964,-117.9833628,8z/data=!3m1!4b1!4m3!8m2!3m1!1e1)
