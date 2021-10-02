@@ -54,8 +54,11 @@ function App() {
         <Heading id="wedding" className="shifted">
           <Heading.Title>Wedding</Heading.Title>
           <Heading.Subtitle>
-            We're delighted to gather on <b>Saturday December 11th, 2021 </b>
+            We're delighted to gather on <b>Saturday December 11th, 2021</b>{" "}
             with family and friends to celebrate our marriage.
+            <br />
+            <br /> Please arrive at Columbia Winery by <b>5:30pm</b> as the
+            ceremony begins at <b>6pm</b>.
           </Heading.Subtitle>
           <Heading.Body>
             <Row>
