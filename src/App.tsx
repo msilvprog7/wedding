@@ -42,7 +42,7 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#wedding">Wedding</Nav.Link>
-              <Nav.Link href="#rsvp">RSVP</Nav.Link>
+              <Nav.Link href="#registry">Registry</Nav.Link>
               <Nav.Link href="#bridal-party">Bridal Party</Nav.Link>
               <Nav.Link href="#plan">Plan</Nav.Link>
               <Nav.Link href="#thanks">Thanks</Nav.Link>
@@ -59,6 +59,10 @@ function App() {
             <br />
             <br /> Please arrive at Columbia Winery by <b>5:30pm</b> as the
             ceremony begins at <b>6pm</b>.
+            <br />
+            <br /> We will be following local guidance for COVID restrictions.
+            Please either be vaccinated or have negative COVID test within 48
+            hours before the wedding.
           </Heading.Subtitle>
           <Heading.Body>
             <Row>
@@ -91,28 +95,11 @@ function App() {
           </Heading.Body>
         </Heading>
       </Headline>
-      <Heading id="rsvp">
-        <Heading.Title>RSVP</Heading.Title>
-        <Heading.Subtitle>
-          Please RSVP by <b>Monday November 15th, 2021</b>.
-          <br />
-          <br />
-          We will be following local guidance for COVID restrictions. Please
-          either be vaccinated or have negative COVID test within 48 hours
-          before the wedding.
-          <br />
-          <br />
-          Thank you!
-        </Heading.Subtitle>
+      <Heading id="registry">
+        <Heading.Title>Registry</Heading.Title>
+        <Heading.Subtitle>Our wedding registries</Heading.Subtitle>
         <Heading.Body>
           <Row>
-            <Col md={4}>
-              <ImageOverlay
-                src={Files.from("images", "rsvp", "rsvp.png")}
-                alt="RSVP"
-                href="https://forms.gle/e3Ds28qCJrpMrUBW9"
-              />
-            </Col>
             <Col md={4}>
               <ImageOverlay
                 src={Files.from("images", "rsvp", "registry.png")}
